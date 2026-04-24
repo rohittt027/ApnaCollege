@@ -9,8 +9,10 @@ console.log(a * b);
 console.log(a / b);
 console.log(a ** b);
 
+// ---------------------------------------------------------------------------------------------------
 
-// Comparisional Operators
+
+// Comparisonal Operators
 
 let age = 18;
 
@@ -51,3 +53,25 @@ null === undefined
 false
 
 
+
+// ---------------------------------------------------------------------------------------------------
+// Comparison for non-number
+
+// It is compare the value of characters & non-number using unicode
+
+// 'a'->61, 'b'->62 ...
+// 'A'->41, 'B'->42 ...
+ 
+// Note:-
+// 'a' value is greater than capital 'A'
+
+'a' > 'A'
+true
+'a' < 'b'
+true
+'a' > 'b'
+false
+'*' < '&'
+false
+'B' < 'C'
+true
