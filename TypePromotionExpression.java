@@ -56,3 +56,26 @@
 //         System.out.p 
 //     }
 // }
+
+
+// ---------------------------------------------------------------------------------------------------
+
+// public class TypePromotionExpression {
+//     public static void main(String[] args) {
+//         byte a = 10;
+//         char b = 'a'; // ASCII/Unicode value = 97
+//         short c = 20;
+//         int d = 50;
+//         float e = 5.5f;
+//         double f = 12.34;
+
+//         // Expression evaluation:
+//         // 1. (a * b) me a (byte) aur b (char) int ban jate hain -> result int
+//         // 2. (d / c) me c (short) int ban jata hai -> result int
+//         // 3. (f * e) me e (float) double ban jata hai -> result double
+//         // Final result poora double ban jata hai.
+//         double result = (a * b) + (d / c) - (f * e);
+
+//         System.out.println("Result: " + result);
+//     }
+// }
